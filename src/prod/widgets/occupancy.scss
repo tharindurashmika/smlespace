@@ -1,0 +1,94 @@
+#dt-occupancy-main-widget-id {
+  background: rgba(0, 0, 0, 0.32);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", sans-serif;
+  color: #ffffff;
+  .dt-occupancy-title-icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(83deg)
+      brightness(106%) contrast(103%);
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg viewBox='0 0 600 600' version='1.1' id='svg9724' sodipodi:docname='people.svg' inkscape:version='1.2.2 (1:1.2.2+202212051550+b0a8486541)' width='600' height='600' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Cdefs id='defs9728' /%3E%3Csodipodi:namedview id='namedview9726' pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1.0' inkscape:showpageshadow='2' inkscape:pageopacity='0.0' inkscape:pagecheckerboard='0' inkscape:deskcolor='%23d1d1d1' showgrid='true' inkscape:zoom='0.84118632' inkscape:cx='319.19207' inkscape:cy='427.37262' inkscape:window-width='1920' inkscape:window-height='1009' inkscape:window-x='0' inkscape:window-y='1080' inkscape:window-maximized='1' inkscape:current-layer='g10449' showguides='true'%3E%3Cinkscape:grid type='xygrid' id='grid9972' originx='0' originy='0' /%3E%3Csodipodi:guide position='-260,300' orientation='0,-1' id='guide383' inkscape:locked='false' /%3E%3Csodipodi:guide position='300,520' orientation='1,0' id='guide385' inkscape:locked='false' /%3E%3Csodipodi:guide position='240,520' orientation='0,-1' id='guide939' inkscape:locked='false' /%3E%3Csodipodi:guide position='220,80' orientation='0,-1' id='guide941' inkscape:locked='false' /%3E%3C/sodipodi:namedview%3E%3Cg id='g10449' transform='matrix(0.95173205,0,0,0.95115787,13.901174,12.168794)' style='stroke-width:1.05103'%3E%3Cg id='path10026' inkscape:transform-center-x='-0.59233046' inkscape:transform-center-y='-20.347403' transform='matrix(1.3807551,0,0,1.2700888,273.60014,263.99768)' /%3E%3Cg id='g11314' transform='matrix(1.5092301,0,0,1.3955555,36.774048,-9.4503933)' style='stroke-width:50.6951' /%3E%3Cpath style='color:%23000000;fill:%23000000;stroke-width:1.05103;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers' d='m 248.07279,-12.793664 c -72.13241,0 -131.33949,59.250935 -131.33949,131.392074 0,38.92115 17.25502,74.07152 44.45432,98.20884 C 58.500207,254.84854 -14.606185,358.21398 -14.606185,477.846 a 35.037921,35.037921 0 0 0 35.034809,35.03543 H 188.95771 c 6.88866,-25.46243 17.91968,-49.15043 32.45932,-70.0688 H 58.235927 C 73.730605,344.39181 153.38526,271.2598 248.07279,271.2598 c 13.12286,0 25.94065,1.45153 38.35524,4.13353 4.26325,-42.80875 34.59589,-78.30933 74.73011,-90.32371 11.57931,-19.5408 18.25414,-42.27592 18.25414,-66.47121 0,-72.141139 -59.20709,-131.392074 -131.33949,-131.392074 z m 0,70.068794 c 34.24293,0 61.26987,27.028459 61.26987,61.32328 0,34.29482 -27.02694,61.3274 -61.26987,61.3274 -34.24293,0 -61.27192,-27.03258 -61.27192,-61.3274 0,-34.294821 27.02899,-61.32328 61.27192,-61.32328 z' id='path295' /%3E%3Cpath id='path295-3' style='color:%23000000;fill:%23000000;stroke-width:1.05103;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers' d='m 405.68024,197.47637 c -57.70598,0 -105.07159,47.40151 -105.07159,105.11449 0,31.13694 13.80343,59.25664 35.56289,78.56652 -82.15001,30.43306 -140.63449,113.12556 -140.63449,208.83127 a 28.030337,28.030337 0 0 0 28.0273,28.0278 h 182.11589 182.11452 a 28.030337,28.030337 0 0 0 28.0286,-28.0278 c 0,-95.70539 -58.4835,-178.39795 -140.63307,-208.83127 21.75947,-19.30988 35.56153,-47.42958 35.56153,-78.56652 0,-57.71298 -47.3656,-105.11449 -105.07158,-105.11449 z m 0,56.05559 c 27.39437,0 49.01562,21.62301 49.01562,49.0589 0,27.43588 -21.62125,49.06164 -49.01562,49.06164 -27.39437,0 -49.017,-21.62576 -49.017,-49.06164 0,-27.43589 21.62263,-49.0589 49.017,-49.0589 z m 0,171.18664 c 75.7501,0 139.47372,58.50552 151.86952,137.24226 H 405.68024 253.81075 C 266.2065,483.22412 329.93014,424.7186 405.68024,424.7186 Z' /%3E%3C/g%3E%3C/svg%3E");
+  }
+  .dt-occupancy-header {
+    display: flex;
+    // justify-content: space-between;
+    gap: 7px;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+
+    .dt-occupancy-title {
+      font-weight: 600;
+    }
+
+    .dt-occupancy-filter-icon {
+      cursor: pointer;
+      color: #ffffff;
+
+      i {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .dt-occupancy-location {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .dt-occupancy-counts {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.75rem;
+
+    .dt-count-current,
+    .dt-count-total {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .dt-count-label {
+      font-size: 0.75rem;
+      color: #ffffff;
+      text-align: justify;
+      padding-inline-start: 5px;
+      width: 50%;
+    }
+  }
+
+  .dt-occupancy-bar {
+    display: flex;
+    height: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #e0e0e0;
+
+    .dt-occupancy-bar-filled {
+      background-color: #1b2a41;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+    }
+
+    .dt-occupancy-bar-empty {
+      background-color: #bdbdbd;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+    }
+  }
+}

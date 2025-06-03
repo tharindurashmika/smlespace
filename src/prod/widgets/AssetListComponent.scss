@@ -1,0 +1,107 @@
+.dt-alarm-summary-list-icon-container {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4377d8;
+  cursor: pointer;
+  border-radius: 15px;
+
+  .dt-alarm-summary-list-view-more-icon {
+    width: 11px;
+    height: 11px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: invert(98%) sepia(2%) saturate(7%) hue-rotate(328deg)
+      brightness(101%) contrast(103%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.113' height='11.113' viewBox='0 0 11.113 11.113'%3E%3Cpath d='M14.378,14.378H5.735V5.735h4.322V4.5H5.735A1.234,1.234,0,0,0,4.5,5.735v8.644a1.234,1.234,0,0,0,1.235,1.235h8.644a1.238,1.238,0,0,0,1.235-1.235V10.057H14.378ZM11.291,4.5V5.735h2.216L7.439,11.8l.871.871,6.069-6.069V8.822h1.235V4.5Z' transform='translate(-4.5 -4.5)' fill='%23000'/%3E%3C/svg%3E");
+  }
+}
+
+.dt-alarm-summary-list-type-icon-container {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .dt-alarm-summary-list-icon-fault {
+    width: 15px;
+    height: 15px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    // filter: invert(98%) sepia(2%) saturate(7%) hue-rotate(328deg)
+    //   brightness(101%) contrast(103%);
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 512 512' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Ewarning-filled%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='add' fill='%23000000' transform='translate(32.000000, 42.666667)'%3E%3Cpath d='M246.312928,5.62892705 C252.927596,9.40873724 258.409564,14.8907053 262.189374,21.5053731 L444.667042,340.84129 C456.358134,361.300701 449.250007,387.363834 428.790595,399.054926 C422.34376,402.738832 415.04715,404.676552 407.622001,404.676552 L42.6666667,404.676552 C19.1025173,404.676552 7.10542736e-15,385.574034 7.10542736e-15,362.009885 C7.10542736e-15,354.584736 1.93772021,347.288125 5.62162594,340.84129 L188.099293,21.5053731 C199.790385,1.04596203 225.853517,-6.06216498 246.312928,5.62892705 Z M224,272 C208.761905,272 197.333333,283.264 197.333333,298.282667 C197.333333,313.984 208.415584,325.248 224,325.248 C239.238095,325.248 250.666667,313.984 250.666667,298.624 C250.666667,283.264 239.238095,272 224,272 Z M245.333333,106.666667 L202.666667,106.666667 L202.666667,234.666667 L245.333333,234.666667 L245.333333,106.666667 Z' id='Combined-Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .dt-alarm-summary-list-icon-comfort {
+    width: 15px;
+    height: 15px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 17L9 20M12 17L15 20M12 17V12M12 17V21M9 4L12 7L15 4M12 12L16.3301 9.5M12 12L7.66985 9.50001M12 12L16.3301 14.5M12 3V9M16.3301 9.5L19.7942 7.5M16.3301 9.5L20.4283 10.598M16.3301 9.5L17.4283 5.40187M4.20581 16.5L9.40196 13.5M16.3301 14.5L17.4282 18.5981M16.3301 14.5L20.4282 13.4019M16.3301 14.5L19.7943 16.5M7.66985 9.50001L3.57178 10.5981M7.66985 9.50001L6.57178 5.40193M7.66985 9.50001L4.20581 7.5M6.57178 18.598L7.66985 14.4999L3.57178 13.4019' stroke='%23000000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+
+  .dt-alarm-summary-list-icon-sensor {
+    width: 15px;
+    height: 15px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12L8 3H15.5L14 8.99991H18L9 21L10.5 12H6Z' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+
+  .dt-alarm-summary-list-icon-prediction {
+    width: 15px;
+    height: 15px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1V15H15V13H3V1H1Z' fill='%23000000'/%3E%3Cpath d='M5 7L7 5L10 8L15 3V11H5V7Z' fill='%23000000'/%3E%3C/svg%3E");
+  }
+
+  .dt-alarm-summary-list-see-more-icon {
+    width: 15px;
+    height: 15px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='24' height='24' fill='white'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 12C7 11.4477 7.44772 11 8 11H8.01C8.56228 11 9.01 11.4477 9.01 12C9.01 12.5523 8.56228 13 8.01 13H8C7.44772 13 7 12.5523 7 12ZM11 12C11 11.4477 11.4477 11 12 11H12.01C12.5623 11 13.01 11.4477 13.01 12C13.01 12.5523 12.5623 13 12.01 13H12C11.4477 13 11 12.5523 11 12ZM16 11C15.4477 11 15 11.4477 15 12C15 12.5523 15.4477 13 16 13H16.01C16.5623 13 17.01 12.5523 17.01 12C17.01 11.4477 16.5623 11 16.01 11H16ZM2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12Z' fill='%23323232'/%3E%3C/svg%3E");
+  }
+
+  .non-critical-status-icon {
+    filter: invert(60%) sepia(32%) saturate(4447%) hue-rotate(352deg)
+      brightness(94%) contrast(82%) !important;
+  }
+
+  .critical-status-icon {
+    filter: invert(15%) sepia(93%) saturate(4323%) hue-rotate(353deg)
+      brightness(105%) contrast(81%) !important;
+  }
+}
+
+.dt-alarm-summary-list-item {
+  font-size: 10px;
+}
+
+.data-grid {
+  &.dt-alarm-summary-list {
+    background-color: transparent !important;
+    height: 150px;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+  }
+}
+
+.alarm-summary-list {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+}

@@ -1,0 +1,193 @@
+#dt-comfortlevel-main-widget-id {
+  background: rgba(0, 0, 0, 0.32);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", sans-serif;
+  color: #ffffff;
+
+  .dt-comfortlevel-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+
+    .dt-comfortlevel-title-icon {
+      i {
+        font-size: 1.25rem;
+        color: #0078d4; // primary utility-based icon color
+      }
+    }
+  }
+
+  .dt-comfortlevel-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .dt-comfortlevel-card {
+      flex: 1;
+      background: #ffffff;
+      border-radius: 6px;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+
+      .dt-comfortlevel-icon {
+        width: 32px;
+        height: 32px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
+      .temperature {
+        width: 15px;
+        height: 15px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1b2a41;
+        // background-image: url("https://smartfm.iviva.cloud/Resources/C2ODemo/temperature-icon.png");
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 15.9998C11.4477 15.9998 11 16.4475 11 16.9998C11 17.5521 11.4477 17.9998 12 17.9998C12.5523 17.9998 13 17.5521 13 16.9998C13 16.4475 12.5523 15.9998 12 15.9998ZM12 15.9998V6M12 16.9998L12.0071 17.0069M16 16.9998C16 19.209 14.2091 20.9998 12 20.9998C9.79086 20.9998 8 19.209 8 16.9998C8 15.9854 8.37764 15.0591 9 14.354L9 6C9 4.34315 10.3431 3 12 3C13.6569 3 15 4.34315 15 6V14.354C15.6224 15.0591 16 15.9854 16 16.9998Z' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+
+      .humidity {
+        width: 15px;
+        height: 15px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1b2a41;
+        // background-image: url("https://smartfm.iviva.cloud/Resources/C2ODemo/humidity-icon.png");
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg fill='%23000000' width='800px' height='800px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,22c2.579,0,4-1.35,4-3.8,0-3.243-3.237-5.871-3.375-5.981a1,1,0,0,0-1.25,0C11.237,12.329,8,14.957,8,18.2,8,20.65,9.421,22,12,22Zm0-7.639A6.153,6.153,0,0,1,14,18.2c0,1.112-.335,1.8-2,1.8s-2-.688-2-1.8A6.153,6.153,0,0,1,12,14.361ZM6.625,2.219a1,1,0,0,0-1.25,0C5.237,2.329,2,4.957,2,8.2,2,10.65,3.421,12,6,12s4-1.35,4-3.8C10,4.957,6.763,2.329,6.625,2.219ZM6,10c-1.665,0-2-.688-2-1.8A6.153,6.153,0,0,1,6,4.361,6.153,6.153,0,0,1,8,8.2C8,9.312,7.665,10,6,10ZM18.625,2.219a1,1,0,0,0-1.25,0C17.237,2.329,14,4.957,14,8.2c0,2.45,1.421,3.8,4,3.8s4-1.35,4-3.8C22,4.957,18.763,2.329,18.625,2.219ZM18,10c-1.665,0-2-.688-2-1.8a6.153,6.153,0,0,1,2-3.839A6.153,6.153,0,0,1,20,8.2C20,9.312,19.665,10,18,10Z'/%3E%3C/svg%3E");
+      }
+
+      .co2 {
+        width: 15px;
+        height: 15px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1b2a41;
+        // background-image: url("https://smartfm.iviva.cloud/Resources/C2ODemo/co2-icon.png");
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3 13.6493C3 16.6044 5.41766 19 8.4 19L16.5 19C18.9853 19 21 16.9839 21 14.4969C21 12.6503 19.8893 10.9449 18.3 10.25C18.1317 7.32251 15.684 5 12.6893 5C10.3514 5 8.34694 6.48637 7.5 8.5C4.8 8.9375 3 11.2001 3 13.6493Z' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+
+      .dt-comfortlevel-info {
+        .dt-percentage {
+          font-size: 1rem;
+          font-weight: 600;
+          color: #1b2a41;
+        }
+
+        .dt-range {
+          font-size: 0.75rem;
+          color: #777;
+        }
+      }
+    }
+  }
+}
+
+.comfort-modal {
+  padding: 1.5rem;
+  max-height: 70vh;
+  // overflow-y: auto;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.3s ease-in-out;
+
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+  }
+
+  .comfort-table {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .table-header,
+    .table-row {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      padding: 0.75rem 1rem;
+      border-radius: 0.5rem;
+    }
+
+    .table-header {
+      background-color: #f0f0f0;
+      font-weight: 600;
+      color: #444;
+    }
+
+    .table-row {
+      background-color: #fafafa;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: #eef3f8;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-container {
+  &.dt-comfort-modal {
+    // left: 66%;
+    // top: -20%;
+
+    .modal-backdrop {
+      background-color: transparent !important;
+    }
+    .modal-panel {
+      min-width: 330px;
+      width: 470px;
+      min-height: 0px;
+      height: 400px;
+      .modal-header {
+        // display: none;
+      }
+      .modal-body {
+        padding: 5px;
+        margin: 0;
+      }
+    }
+  }
+}

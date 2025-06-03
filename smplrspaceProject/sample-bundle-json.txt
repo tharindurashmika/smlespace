@@ -1,0 +1,39 @@
+{
+    "id": "2e5905d6-1421-451f-e744-40390e8f28d7",
+    "author": "",
+    "widgets": [
+        {
+            "id": "smplrspaceProject",
+            "name": "smplrspaceProject",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+            "category":"",
+            "isTemplate": true/false // this will mark the widget as a template 
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "id": "smplrspaceProjectLink",
+            "label": "",
+            "description": "",
+            "target": "",
+            "icon": "",
+            "roles":[]
+        }
+    ],
+    "uis": [
+        {
+            "id": "smplrspaceProjectLink",
+            "label":"",
+            "description": "",
+            "roles": []
+        }
+    ],
+    "menuItems": [
+        {
+            "id": "smplrspaceProjectLink",
+            "title": "smplrspaceProject"
+        }
+    ]
+}

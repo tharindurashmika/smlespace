@@ -1,0 +1,56 @@
+:root {
+    /* Default font sizes */
+    --circular-gauge-size: 80%;
+  }
+
+
+.en-widget-container {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    min-width: 250px;
+    min-height: 170px;
+    //background: linear-gradient(180deg, #0005359c 0%, rgba(93, 99, 157, 0.61) 100%);
+    background: linear-gradient(180deg, rgba(0, 5, 53, 0.6117647059) 100%, rgba(93, 99, 157, 0.61) 0%);
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+
+    .header-title{
+        font-size: 12px;
+    }
+    .bolt-icon {
+        margin-right: 0px;
+        font-size: 18px;
+        color: rgb(250, 246, 5); 
+        //border-bottom: 1px solid #00bcd4;
+        //padding-bottom: 5px;
+        position: inherit;
+        width: 16px;
+        height: 18px;
+        margin-bottom: -4px;
+      }
+}
+
+.circular-gauge-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+// .circular-gauge {
+//     width: var(--widget-title-size);
+//     height: var(--widget-title-size);
+//   }
+.circular-gauge {
+    width: var(--circular-gauge-size, 80%);
+    height: var(--circular-gauge-size, 80%);
+  }
+
+  /* Title below the chart */
