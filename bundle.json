@@ -1,0 +1,24 @@
+{
+    "id": "34f90a7f-ab96-4d2b-cb09-dd5b902fd9bc",
+    "author": "Tharaka",
+    "widgets": [
+        {
+            "id": "smplr-space-project",
+            "name": "smplrspace Project",
+            "description": "A Sample smplrspace Project widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
